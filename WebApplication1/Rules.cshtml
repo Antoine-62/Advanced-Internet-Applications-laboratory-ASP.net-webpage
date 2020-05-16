@@ -1,0 +1,52 @@
+﻿@{ 
+    if (IsPost)
+    {
+        //path : Antoine/source
+        if (!String.IsNullOrEmpty(Request["Rule"]))
+        {
+            var Rules2 = Session["rules"] as List<string>;
+            Rules2.Add(Request["Rule"]);
+            Session["rules"] = Rules2;
+            Response.Redirect("Rules.cshtml");
+        }
+    }
+    else if (Request.HttpMethod == "GET")
+    {
+        var Rules2 = Session["rules"] as List<string>;//If it's a get request, we check if the session is null (if it's the 1st conexion, it will be null, else it's our redirection)
+        if(Rules2 == null)
+        {
+            Session["rules"] = new List<string>()
+            {
+                "You drop, you lose",
+                "The ring must be full of banana skin (if you slip you lose)",
+                "There is only one round of 2 minutes",
+                "If nobody is dropped after this delay, everybody lose, no winner",
+                "Each loser must pay a beer to the ruler"
+            };
+        }
+
+    }
+    var Rules = Session["rules"] as List<string>;
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>The rules</h1>
+    <ul>
+        @foreach (var rule in Rules)
+        {
+            <li>@rule</li>
+        }
+    </ul>
+    <form method="post" action="Rules.cshtml">
+        A new rule:<br />
+        <input type="text" name="Rule" value="" />
+        <input type="submit" value="Submit" class="submit" />
+    </form>
+</body>
+</html>
