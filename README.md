@@ -160,7 +160,7 @@ When we run the app, everything works perfectly.
 For this question, I became the super vilain "lazyman", worse foe of all teachers. Seriously, I prefered to work on another project because it was not obligatory.
 
 ## Problems met
-* See question 6 (to load image and style sheet)
+* See question 5 (to load image and style sheet)
 * Visual Studio 2019 is slow. I spent more time to wait the app begin to run than code the app and write this desciption.
 * I didn't really met problem for this exercice
 
