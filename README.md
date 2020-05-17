@@ -3,6 +3,7 @@
 **Description :** The aim of the exercice was to learn ASP.NET Web Pages technology, the Razor view engine and the basics of C# language by following a tutorial.
 Because it was not obligatory, I didn't do the question n°7. Honnestly I am a not a big fan of this technology, and I prefered to spend more time on another project.  
 In this description, I will describe the code and answer to all tutorial's questions.
+**The code is located in WebApplication1 directory, not in packages directory**
 
 ## Question 2
 
