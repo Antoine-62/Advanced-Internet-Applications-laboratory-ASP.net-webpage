@@ -166,8 +166,8 @@ For this question, I became the super vilain "lazyman", worse foe of all teacher
 
 ## Conclusion
 In this exercice, I learned the basics to do a project ASP.net technology, and saw his advantages. In my opinion, I find it's quite easy to handle this technology. Here, to access a variable or a function, you only need to type "@" before the variable's name, compared to php, where you need to write <"**php echo $variable ?>**", or javascript where you need to do an append.  
-Well, in summary, it's very similar to the php frameworks, but I still prefered php frameworks. Maybe the goal of this assigment (and the next one) is to discover the advantages of a framework ?(with layout and MCV architecture). However, as I said before, the problem of ASP.net is you must work work with visual studio, which is quite slow to run.   
-But maybe I will change my mind in the next laboratory ? Who know?  
+Well, in summary, it's very similar to the php frameworks, but I still prefered php frameworks. Maybe the goal of this assigment (and the next one) is to discover the advantages of a framework ?(with layout and MCV architecture). However, as I said before, the problem of ASP.net is you must work with visual studio, which is quite slow to run.   
+But maybe I will change my mind in the next laboratory ? Who know? 
 I thank my teacher, sir Piernik, for this exercice and new skills acquired.
 
 
